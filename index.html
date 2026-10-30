@@ -3,30 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<link rel="stylesheet" href="CSS/styles.css">
+    <meta name="description" content="Welcome to Taco Town for fresh and tasty tacos.">
+    <title>Taco Town </title>
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-    <h1>Learning CSS</h1>
-    <article>
-<h2>The Importance of Learning CSS</h2>
-<p>CSS makes websites beautiful and attractive.</p>
-<p>It allows you to change colors, fonts, and layouts.</p>
-<p>With CSS, you can create responsive websites for different devices.</p>
-</article>
+   <header id="top">
+        <h1>Taco Town</h1>
+        <p>Fresh Tacos, Big Flavour!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#hours">Hours</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+       <section id="home">
+            <h2>Welcome to Taco Town!</h2>
+            <p>
+                Welcome to Taco Town, your favourite place for delicious tacos.
+                We prepare fresh meals using quality ingredients to give you
+                a wonderful dining experience.
+            </p>
+            <img src="images/tacos.jpg" alt="Fresh tacos filled with meat and vegetables">
+            <p>Visit us today and enjoy tasty food at affordable prices!</p>
+        </section>
 
-<article>
-<h2>The Benefits of Reading</h2>
-<p>Reading helps us gain knowledge and learn new things.</p>
-<p>It improves our vocabulary and communication skills.</p>
-<p>Reading every day can also improve creativity and imagination.</p>
-</article>
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <p>Choose from our delicious selection of meals and drinks.</p>
 
-<article>
-<h2>Protecting the Environment</h2>
-<p class="gray">The environment provides us with air, water, and food.</p>
-<p class="gray">We can protect it by planting trees and reducing pollution.</p>
-<p class="gray">Keeping our surroundings clean makes the world healthier.</p>
-</article>
+            <table>
+                <caption>Menu and Prices</caption>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Price (KSh)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Chicken Tacos</td>
+                        <td>2 pieces</td>
+                        <td>350</td>
+                    </tr>
+                    <tr>
+                        <td>Beef Tacos</td>
+                        <td>2 pieces</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <td>Vegetable Tacos</td>
+                        <td>2 pieces</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>Nachos and Salsa</td>
+                        <td>1 serving</td>
+                        <td>250</td>
+                    </tr>
+                    <tr>
+                        <td>Fresh Juice</td>
+                        <td>1 glass</td>
+                        <td>150</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Ask us about our daily special!</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="hours">
+            <h2>Our Store Hours</h2>
+            <p>We look forward to serving you!</p>
+            <ul>
+                <li><strong>Mon - Fri:</strong> 9:00 AM - 8:00 PM</li>
+                <li><strong>Saturday:</strong> 10:00 AM - 9:00 PM</li>
+                <li><strong>Sunday:</strong> 11:00 AM - 6:00 PM</li>
+            </ul>
+            <img src="images/taco-shop.jpg" alt="Inside the welcoming Taco Town restaurant">
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Do you have a question or suggestion? Complete the form below.</p>
+
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Write your message" required></textarea>
+                </div>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Taco Town. All rights reserved.</p>
+        <p><a href="#top">Back to Top ↑</a></p>
+    </footer>
+
 </body>
 </html>
