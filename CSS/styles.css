@@ -1,6 +1,4 @@
-
-
-html {
+html{
     scroll-behavior: smooth;
 }
 
@@ -11,8 +9,6 @@ body {
     color: #30251f;
     background-color: #fffaf0;
 }
-
-/* Header */
 header {
     background-color: #9b2c1f;
     color: white;
@@ -28,8 +24,6 @@ header h1 {
 header p {
     margin-bottom: 0;
 }
-
-/* Navigation */
 nav {
     background-color: #30251f;
 }
